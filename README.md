@@ -20,9 +20,9 @@ This project leverages the mega-awesome [swagger-tools](https://github.com/apige
 
 ### How to Connect with Customized UI
 
-1. Specify the location of customised ui folder: https://github.houston.softwaregrp.net/JinCong-Ho/swagger-nodejs-server/blob/master/index.js#L36
+1. Specify the location of customised ui folder: https://github.com/jincongho/mfswagger-nodejs-server/blob/master/index.js#L37
 
-2. Load the correct swagger speficiation from the ui index.html: https://github.houston.softwaregrp.net/JinCong-Ho/swagger-nodejs-server/blob/master/swagger-ui-master/src/main/resources/index.html#L36 (can be flexible, rather than fixed value shown in example)
+2. Load the correct swagger specification from the ui index.html: https://github.com/jincongho/mfswagger-nodejs-server/blob/master/swagger-ui-master/src/main/resources/microfocus-config.js#L19 (can be flexible, rather than fixed value shown in example)
 
 * the customised ui can be extracted to another repository and install using package.json, the inclusion of the ui in this repo is just to show the connection clearer
 * more customised setting of the running behaviours are possible
